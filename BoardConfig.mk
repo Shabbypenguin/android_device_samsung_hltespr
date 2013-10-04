@@ -43,7 +43,9 @@ TARGET_PREBUILT_KERNEL := device/samsung/hltespr/kernel.stock
 
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
+BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 
 # TWRP specific build flags
 DEVICE_RESOLUTION := 1080x1920
